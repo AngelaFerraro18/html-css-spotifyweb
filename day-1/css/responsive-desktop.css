@@ -11,4 +11,36 @@
     #structure-web-app .list-names{
         display: inline;
     }
+
+    #structure-web-app .logo-small{
+        display: none;
+    }
+
+    #structure-web-app .logo-big{
+        display: block;
+        max-width: 370px;
+        padding-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    #structure-web-app .icon-list img{
+        max-width: 60px;
+    }
+
+    #structure-web-app .download-app{
+        max-width: 55px;
+    }
+
+    #structure-web-app .user-profile a{
+        width: 65px;
+        height: 65px;
+    }
+
+    #structure-web-app .icon-list a{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: #969696;
+        font-size: 1.2rem;
+    }
 }

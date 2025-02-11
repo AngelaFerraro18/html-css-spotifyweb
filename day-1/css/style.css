@@ -56,6 +56,10 @@ footer{
     padding: 0 13px;
 }
 
+#structure-web-app .logo-big{
+    display: none;
+}
+
 #structure-web-app .icon-list img{
     opacity: 50%;
 }
