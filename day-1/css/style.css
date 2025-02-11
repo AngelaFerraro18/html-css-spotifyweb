@@ -181,6 +181,9 @@ hr{
     display: none;
 }
 
+
+/* parte destra della struttura della web-app */
+
 #structure-main {
     width: 100vw;
 }
