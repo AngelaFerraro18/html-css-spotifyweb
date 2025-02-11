@@ -57,12 +57,16 @@ footer{
 }
 
 #structure-web-app .icon-list img{
-    color: #5c5c5c;
+    opacity: 50%;
 }
 
 #structure-web-app .icon-list a{
     padding: 0 13px;
     margin-bottom: 15px;
+}
+
+#structure-web-app .icon-list img{
+    max-width: 30px;
 }
 
 #structure-web-app .list-names{
@@ -82,4 +86,21 @@ footer{
 #structure-web-app .playlist{
     color: #858585;
 }
+
+#structure-web-app .download-app{
+    opacity: 50%;
+    max-width: 30px;
+}
+
+
+#structure-web-app .user-profile a{
+    width: 30px;
+    height: 30px;
+    background-color: #656565;
+    border-radius: 50%;
+    background-image: url(/img/profile.svg);
+    background-size: cover;
+    
+}
+
 
