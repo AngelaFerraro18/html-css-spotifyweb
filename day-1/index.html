@@ -9,10 +9,14 @@
     <!-- google-font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
 
     <!-- fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- main style -->
     <link rel="stylesheet" href="../day-1/css/style.css">
@@ -22,39 +26,62 @@
 </head>
 
 <body>
+
     <!-- struttura principale della pagina -->
+
     <div id="structure-web-app">
+
+        <!-- parte destra della struttura della web-app -->
+        <div id="structure-main">
+            <div class="header-main"></div>
+        </div>
+
 
         <div class="menù-left">
             <a class="logo-small" href="#"><img src="../img/logo-small.svg" alt="icona-logo-spotify"></a>
             <a class="logo-big" href="#"><img src="../img/logo.svg" alt="logo-spotify"></a>
 
-            <ul class="icon-list">
-                <li><a href="#"><img src="../img/home.svg" alt="home-spotify"><span class="list-names">Home</span></a></li>
-                <li><a href="#"><img src="../img/search.svg" alt="fai-la-tua-ricerca"><span class="list-names">Cerca</span></a></li>
-                <li><a href="#"><img src="../img/libreria.svg" alt="la-tua-libreria"><span class="list-names">La tua libreria</span></a></li>
-            </ul>
-
-            <div class="playlist list-names">
-                <h2 id="playlist-name">Playlist</h2>
-                <a href="#" class="create-playlist"><i class="fa-solid fa-plus"></i><span>Crea Playlist</span></a>
-                <ul>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
+            <!-- lista icone principali -->
+            <div class="content-flex">
+                <ul class="icon-list">
+                    <li><a href="#"><img src="../img/home.svg" alt="home-spotify"><span
+                                class="disp-none">Home</span></a></li>
+                    <li><a href="#"><img src="../img/search.svg" alt="fai-la-tua-ricerca"><span
+                                class="disp-none">Cerca</span></a></li>
+                    <li><a href="#"><img src="../img/libreria.svg" alt="la-tua-libreria"><span class="disp-none">La tua
+                                libreria</span></a></li>
                 </ul>
+
+                <!-- sezione playlist -->
+
+                <div class="playlist disp-none">
+                    <h2 id="playlist-name">Playlist</h2>
+                    <a href="#" class="create-playlist"><i class="fa-solid fa-plus"></i><span>Crea Playlist</span></a>
+                    <ul class="list-playlist">
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                    </ul>
+                </div>
+
+                <!-- sezione opzioni user -->
+
+                <div class="user-options">
+                    <div class="download-app">
+                        <a href="#"><img src="../img/download.svg" alt="installa-app"></a><span
+                            class="disp-none">Installa App</span>
+                    </div>
+
+                    <hr>
+
+                    <div class="user-profile">
+                        <a href="#"></a><span class="disp-none">Angela Ferraro</span>
+                    </div>
+                </div>
             </div>
 
-            <div class="user-options">
-                <div class="download-app">
-                    <a href="#"><img src="../img/download.svg" alt="installa-app"><span class="list-names">Installa App</span></a>
-                </div>
-                <div class="user-profile">
-                    <a href="#"><span class="list-names">Angela Ferraro</span></a>
-                </div>
-            </div>
         </div>
 
     </div>
