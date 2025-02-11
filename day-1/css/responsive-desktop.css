@@ -41,6 +41,46 @@
         align-items: center;
         gap: 20px;
         color: #969696;
-        font-size: 1.2rem;
+        font-size: 1.2em;
     }
+
+    #structure-web-app .icon-list{
+        margin-bottom: 75px;
+    }
+
+    #structure-web-app #playlist-name{
+        text-transform: uppercase;
+        font-size: 1.5em;
+        color: #fafafa;
+        margin-bottom: 30px;
+    }
+
+    #structure-web-app .fa-plus{
+        width: 85px;
+        height: 90px;
+        font-size: 1.3em;
+        font-weight: bold;
+        background-color: #858585;
+        color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #structure-web-app .create-playlist{
+        font-size: 1.3em;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 50px;
+        color: #959595;
+    }
+
+    #structure-web-app .create-playlist span{
+        display: block;
+    }
+
+
+
 }
