@@ -7,11 +7,17 @@
     box-sizing: border-box;
 }
 
+img{
+    display: inline-block;
+    width: 100%;
+}
+
 
 /* Common */
 
 body{
     height: 100vh;
+    font-family: "Montserrat", sans-serif;
 }
 
 a{
@@ -41,5 +47,24 @@ footer{
 #structure-web-app .menù-left{
     background-color: #010101;
     height: 100%;
-    padding: 13px 13px;
+    width: 60px;
+    padding: 13px 0;
+}
+
+#structure-web-app .logo-small{
+    margin-bottom: 30px;
+    padding: 0 13px;
+}
+
+#structure-web-app .icon-list img{
+    color: #5c5c5c;
+}
+
+#structure-web-app .icon-list a{
+    padding: 0 13px;
+    margin-bottom: 15px;
+}
+
+#structure-web-app .list-names{
+    display: none;
 }
