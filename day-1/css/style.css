@@ -8,7 +8,7 @@
 }
 
 img{
-    display: inline-block;
+    display: block;
     width: 100%;
 }
 
@@ -38,7 +38,7 @@ footer{
 #structure-web-app{
     height: calc(100% - 90px);
     background-color: #151922;
-    display: flex;
+    /* display: flex; */
 }
 
 
@@ -68,3 +68,18 @@ footer{
 #structure-web-app .list-names{
     display: none;
 }
+
+#structure-web-app .user-options{
+    padding: 0 13px;
+    
+}
+
+#structure-web-app .download-app{
+    margin-bottom: 15px;
+}
+
+
+#structure-web-app .playlist{
+    color: #858585;
+}
+

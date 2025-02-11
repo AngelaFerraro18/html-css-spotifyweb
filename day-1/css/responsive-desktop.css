@@ -1,0 +1,14 @@
+@media (min-width: 1024px){
+    footer{
+        height: 175px;
+    }
+
+    #structure-web-app .menù-left{
+        width: 450px;
+        padding: 0 20px;
+    }
+
+    #structure-web-app .list-names{
+        display: inline;
+    }
+}
