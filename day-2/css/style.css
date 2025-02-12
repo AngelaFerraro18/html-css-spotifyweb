@@ -205,12 +205,13 @@ hr {
 }
 
 #structure-main .header-main {
-    background-color: rgba(16, 21, 27, 0.548);
+    background-color: rgba(16, 21, 27, 0.692);
     height: 90px;
     padding: 0 20px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-bottom: 20px;
 }
 
 
@@ -227,8 +228,7 @@ hr {
 
 
 #structure-main .nav-menù ul{
-    background-color: green;
-    font-size: 1em;
+    font-size: 0.7em;
     text-transform: uppercase;
     font-weight: bold;
     margin: 0 30px;
@@ -237,6 +237,6 @@ hr {
     gap: 25px;
     flex-wrap: wrap;
 }
-#structure-main .nav-menù ul li{
-   color: blue;
+#structure-main .nav-menù ul li a{
+   color: #7d7f84;
 }

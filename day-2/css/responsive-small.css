@@ -1,5 +1,4 @@
-@media (min-width: 1024px){
-
+@media screen and (min-width: 576px){
     #structure-web-app .menù-left{
         max-width: 230px;
         padding: 20px 20px;
@@ -57,10 +56,4 @@
     #structure-main .header-main{
         height: 90px;
     }
-
-
-    /* main-webb app */
-
-
-
 }
