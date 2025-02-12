@@ -6,6 +6,6 @@
      }
 
      #structure-main .bands-list{
-        width: ((100% - 24px) / 6);
+        width: ((100% - 12px) / 6);
     }
 }

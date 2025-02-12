@@ -268,7 +268,7 @@ hr {
 }
 
 #structure-main .bands-list{
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 12px) / 2);
 }
 
 #structure-main .bands-list img{
