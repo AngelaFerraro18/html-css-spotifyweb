@@ -224,3 +224,19 @@ hr {
     border: 2px solid #fff;
     border-radius: 30px;
 }
+
+
+#structure-main .nav-menù ul{
+    background-color: green;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+#structure-main .nav-menù ul li{
+   color: blue;
+}
