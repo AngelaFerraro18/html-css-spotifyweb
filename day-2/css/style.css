@@ -312,5 +312,31 @@ hr {
 #structure-main .album-list-2{
     display: flex;
     gap: 12px;
+    margin-bottom: 40px;
 }
 
+
+/* album artisti popolari */
+
+#structure-main .popular-artists span{
+    font-size: 0.9em;
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 800;
+    color: #6e7176;
+}
+
+#structure-main .circle-image{
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+#structure-main .opt-1{
+    background-image: url(/img/youg.jpeg);
+}
+
+#structure-main .opt-2{
+    background-image: url(/img/einaudi.jpeg);
+}
