@@ -205,8 +205,12 @@ hr {
 }
 
 #structure-main .header-main {
-    background-color: #10151b;
+    background-color: rgba(16, 21, 27, 0.548);
     height: 90px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 
