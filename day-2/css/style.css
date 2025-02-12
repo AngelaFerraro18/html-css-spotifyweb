@@ -202,6 +202,7 @@ hr {
 
 #structure-main {
     flex-grow: 1;
+    overflow: scroll;
 }
 
 #structure-main .header-main {
@@ -331,6 +332,7 @@ hr {
     width: 290px;
     border-radius: 50%;
     background-size: cover;
+    margin-bottom: 20px;
 }
 
 #structure-main .opt-1{
