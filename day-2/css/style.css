@@ -230,6 +230,7 @@ hr {
 
 #structure-main .web-container{
     margin: 0 auto;
+    max-width: 435px;
     padding: 0 20px;
 }
 
@@ -257,3 +258,38 @@ hr {
     font-size: 1.3em;
     margin-bottom: 30px;
 }
+
+/* lista album */
+
+#structure-main .album-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    
+}
+
+#structure-main .bands-list{
+    width: calc((100% - 24px) / 2);
+}
+
+#structure-main .bands-list img{
+    margin-bottom: 20px;
+}
+
+#structure-main .album-info{
+    text-align: center;
+}
+
+#structure-main .album-info h3{
+    font-size: 1em;
+    font-weight: 800;
+    color: #fff;
+}
+
+#structure-main .album-info span{
+    font-size: 0.7em;
+    font-weight: 800;
+    color: #6e7176;
+}
+
