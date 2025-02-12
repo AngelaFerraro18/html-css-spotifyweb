@@ -264,7 +264,7 @@ hr {
     justify-content: center;
     flex-wrap: wrap;
     gap: 12px;
-    
+    margin-bottom: 40px;
 }
 
 #structure-main .bands-list{
@@ -280,14 +280,37 @@ hr {
 }
 
 #structure-main .album-info h3{
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 800;
     color: #fff;
+    margin-bottom: 10px;
 }
 
-#structure-main .album-info span{
+#structure-main .album-info, .dedicate-user span{
     font-size: 0.7em;
     font-weight: 800;
     color: #6e7176;
+}
+
+#structure-main .album-info span{
+    display: block;
+}
+
+
+/* lista album dedicati */
+
+#structure-main .dedicate-user h2{
+    margin-bottom: 20px;
+}
+
+#structure-main .dedicate-user span{
+    font-size: 0.9em;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#structure-main .album-list-2{
+    display: flex;
+    gap: 12px;
 }
 
