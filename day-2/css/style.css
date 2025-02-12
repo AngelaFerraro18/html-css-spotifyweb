@@ -226,12 +226,21 @@ hr {
     border-radius: 30px;
 }
 
+/* container sito */
+
+#structure-main .web-container{
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* menù navigazione */
 
 #structure-main .nav-menù ul{
     font-size: 0.7em;
     text-transform: uppercase;
     font-weight: bold;
     margin: 0 30px;
+    margin-bottom: 45px;
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -239,4 +248,12 @@ hr {
 }
 #structure-main .nav-menù ul li a{
    color: #7d7f84;
+}
+
+/* contenuto del corpo della pagina */
+
+#structure-main h2{
+    color: #fff;
+    font-size: 1.3em;
+    margin-bottom: 30px;
 }
