@@ -373,22 +373,26 @@ footer .album-info-track h4 {
     font-size: 0.7em;
     font-weight: 800;
     color: #f9f9f9;
+    cursor: pointer;
 
 }
 
 footer .album-info-track h5 {
     font-size: 0.5em;
     color: #878787;
+    cursor: pointer;
 }
 
 footer .icons-shortcut {
     color: #808080;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 footer .icons-shortcut i {
     display: block;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 
@@ -521,7 +525,7 @@ footer .footer-container {
     color: #fff;
 }
 
-
+/* hover menù left */
 
 #structure-web-app .icon-list li:hover a{
     color: #fff;
@@ -550,5 +554,23 @@ footer .footer-container {
 #structure-web-app .download-app a:hover img{
     color: #fff;
 }
+
+/* footer */
+
+
+/* hover menù-sinistra */
+
+footer h5:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer .icons-shortcut i:hover{
+    color: #fff;
+}
+
+
+/* hover barra di scorrimento */
+
 
 
