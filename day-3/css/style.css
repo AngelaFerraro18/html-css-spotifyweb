@@ -478,7 +478,11 @@ footer .short-bar-2 {
     position: absolute;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
+
 
 /* container del footer */
 footer .footer-container {
@@ -591,6 +595,28 @@ footer .short-bar:after{
 footer .short-bar:hover:after{
     display: inline-block;
 }
+
+
+/* hover barra del suono */
+
+footer .short-bar-2:hover {
+    background-color: #adff2f;
+}
+
+footer .short-bar-2:after{
+    content: '';
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: none;
+}
+
+footer .short-bar-2:hover:after{
+    display: inline-block;
+}
+
+
 
 
 
