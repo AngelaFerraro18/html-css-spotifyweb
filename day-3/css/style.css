@@ -385,12 +385,19 @@ footer .track-info {
 footer .image-track{
     width: 30px;
     height: 30px;
+    flex-shrink: 0;
+}
+
+footer .album-info-track{
+    /* flex-grow: 1; */
+    flex-shrink: 0;
 }
 
 footer .album-info-track h4{
     font-size: 0.7em;
     font-weight: 800;
     color: #f9f9f9;
+    padding-top: 10px;
     
 }
 
@@ -401,9 +408,57 @@ footer .album-info-track h5{
 
 footer .icons-shortcut{
     color: #808080;
+    flex-shrink: 0;
 }
 
 footer .icons-shortcut i{
     display: block;
     margin-bottom: 5px;
+}
+
+
+/* menù centrale con barra di scorrimento track */
+
+footer ul.commands{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 20px;
+}
+
+footer .fa-circle-play{
+    font-size: 1.5em;
+}
+
+footer .long-bar{
+    width: 130px;
+    height: 5px;
+    background-color: #5a5a5a;
+    border-radius: 30px;
+}
+
+footer .short-bar{
+    width: 25px;
+    height: 5px;
+    background-color: #c1c1c1;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer .bar{
+    position: relative;
+}
+
+footer .track-bar span{
+    font-size: 0.5em;
+    font-weight: 800;
+    color: #fbfbfb;
+}
+
+footer .track-bar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
