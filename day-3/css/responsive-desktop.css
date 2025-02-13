@@ -2,7 +2,7 @@
     /* lista album */
 
     #structure-main .bands-list {
-        width: ((100% - 60px) / 6);
+        width: calc((100% - 60px) / 6);
     }
 
     #structure-main .circle-image {

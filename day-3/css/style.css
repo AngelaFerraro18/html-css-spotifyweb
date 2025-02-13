@@ -330,16 +330,6 @@ hr {
     margin-bottom: 30px;
 }
 
-#structure-main .album-list-2 {
-    display: flex;
-    gap: 12px;
-    margin-bottom: 40px;
-}
-
-#structure-main .band-list-2 {
-    width: ((100% - 12px) / 2);
-}
-
 /* album artisti popolari */
 
 #structure-main .popular-artists span {
