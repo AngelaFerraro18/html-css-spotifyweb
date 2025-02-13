@@ -346,10 +346,8 @@ hr {
     color: #6e7176;
 }
 
-#structure-main .circle-image {
-    width: 100%;
+#structure-main .circle{
     border-radius: 50%;
-    margin-bottom: 20px;
 }
 
 /* footer */
