@@ -62,3 +62,32 @@
         width: 150px;
     }
 }
+
+
+/* footer */
+
+/* menù a sinistra */
+
+footer .image-track{
+    width: 40px;
+    height: 40px;
+}
+
+
+/* barra di scorrimento */
+
+footer .long-bar {
+    width: 150px;
+}
+
+footer .short-bar{
+    width: 30px;
+}
+
+footer .long-bar-2{
+    width: 100px;
+}
+
+footer .short-bar-2{
+    width: 20px;
+}
