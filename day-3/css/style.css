@@ -32,6 +32,7 @@ footer {
 
     height: 90px;
     background-color: #282828;
+    padding: 0 10px;
 }
 
 #structure-web-app {
@@ -364,3 +365,45 @@ hr {
 }
 
 
+/* footer */
+
+
+/* menù a sinistra */
+
+/* footer .track-info>div{
+    background-color: yellow;
+    border: 2px solid green;
+
+} */
+
+footer .track-info {
+    display: flex;
+    padding-top: 25px;
+    gap: 10px;
+}
+
+footer .image-track{
+    width: 30px;
+    height: 30px;
+}
+
+footer .album-info-track h4{
+    font-size: 0.7em;
+    font-weight: 800;
+    color: #f9f9f9;
+    
+}
+
+footer .album-info-track h5{
+    font-size: 0.5em;
+    color: #878787;
+}
+
+footer .icons-shortcut{
+    color: #808080;
+}
+
+footer .icons-shortcut i{
+    display: block;
+    margin-bottom: 5px;
+}
