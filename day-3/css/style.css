@@ -32,7 +32,7 @@ footer {
 
     height: 90px;
     background-color: #282828;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 #structure-web-app {
@@ -217,6 +217,7 @@ hr {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 5;
 }
 
 
@@ -341,21 +342,10 @@ hr {
 }
 
 #structure-main .circle-image {
-    height: 120px;
-    width: 120px;
+    width: 100%;
     border-radius: 50%;
-    background-size: cover;
     margin-bottom: 20px;
 }
-
-#structure-main .opt-1 {
-    background-image: url(/img/youg.jpeg);
-}
-
-#structure-main .opt-2 {
-    background-image: url(/img/einaudi.jpeg);
-}
-
 
 /* footer */
 
@@ -465,14 +455,14 @@ footer .sound-options {
     gap: 8px;
 }
 
-footer .long-bar-2{
+footer .long-bar-2 {
     width: 85px;
     height: 5px;
     background-color: #5a5a5a;
     border-radius: 30px;
 }
 
-footer .short-bar-2{
+footer .short-bar-2 {
     width: 15px;
     height: 5px;
     background-color: #c1c1c1;
@@ -489,5 +479,25 @@ footer .footer-container {
     justify-content: space-between;
 }
 
+/* hover */
+#structure-web-app .image-container {
+    position: relative;
+}
 
+#structure-web-app .album-hover {
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.575);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
 
+#structure-web-app .image-container:hover .album-hover{
+    display: flex;
+}
