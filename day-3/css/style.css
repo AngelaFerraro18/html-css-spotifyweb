@@ -138,6 +138,7 @@ footer {
     margin-bottom: 24px;
     font-size: 1em;
     font-weight: 600;
+    cursor: pointer;
 }
 
 
@@ -520,5 +521,34 @@ footer .footer-container {
     color: #fff;
 }
 
+
+
+#structure-web-app .icon-list li:hover a{
+    color: #fff;
+}
+
+#structure-web-app .icon-list li:hover img{
+    opacity: 100%;
+}
+
+#structure-web-app .create-playlist:hover span{
+    color: #fff;
+}
+
+#structure-web-app .create-playlist:hover i{
+    background-color: #fff;
+}
+
+#structure-web-app .list-playlist li:hover {
+    color: #fff;
+}
+
+#structure-web-app .download-app:hover span{
+    color: #fff;
+}
+
+#structure-web-app .download-app a:hover img{
+    color: #fff;
+}
 
 
