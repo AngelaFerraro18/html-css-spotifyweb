@@ -403,6 +403,7 @@ footer ul.commands {
     align-items: center;
     color: #fff;
     gap: 20px;
+    cursor: pointer;
 }
 
 footer .fa-circle-play {
@@ -427,6 +428,7 @@ footer .short-bar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    cursor: pointer;
 }
 
 footer .bar {
@@ -481,6 +483,7 @@ footer .short-bar-2 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    cursor: pointer;
 }
 
 
@@ -614,6 +617,13 @@ footer .short-bar-2:after{
 
 footer .short-bar-2:hover:after{
     display: inline-block;
+}
+
+
+/* hover tasto play */
+
+footer .fa-circle-play:hover{
+   transform: scale(1.1);
 }
 
 
