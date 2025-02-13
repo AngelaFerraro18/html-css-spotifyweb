@@ -480,6 +480,9 @@ footer .footer-container {
 }
 
 /* hover */
+
+/* hover relativo agli album della web app */
+
 #structure-web-app .image-container {
     position: relative;
 }
@@ -496,8 +499,26 @@ footer .footer-container {
     display: none;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 #structure-web-app .image-container:hover .album-hover{
     display: flex;
 }
+
+
+/* hover relativo al bottone upgrade */
+
+#structure-main .btn-upgrade:hover a{
+    transform: scale(1.1);
+
+}
+
+/* hover menù nav */
+
+#structure-main .nav-menù ul li:hover a{
+    color: #fff;
+}
+
+
+
