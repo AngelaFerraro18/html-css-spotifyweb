@@ -8,4 +8,14 @@
     #structure-main .bands-list{
         width: calc((100% - 36px) / 4);
     }
+
+    #structure-main .band-list-2{
+        width: ((100% - 12px) / 2);
+    }
+
+    #structure-main .circle-image{
+        height: 160px;
+        width: 160px;
+    }
 }
+

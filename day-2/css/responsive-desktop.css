@@ -5,7 +5,12 @@
         flex-wrap: nowrap;
      }
 
-     #structure-main .bands-list{
-        width: ((100% - 12px) / 6);
+     #structure-main .babnd-list{
+        width: ((100% - 60px) / 6);
+    }
+
+    #structure-main .circle-image{
+        height: 190px;
+        width: 190px;
     }
 }
