@@ -32,7 +32,7 @@ footer {
 
     height: 90px;
     background-color: #282828;
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 
 #structure-web-app {
@@ -75,7 +75,7 @@ footer {
     opacity: 50%;
 }
 
-#structure-web-app .icon-list{
+#structure-web-app .icon-list {
     margin-bottom: 10px;
 }
 
@@ -147,7 +147,7 @@ footer {
     margin-top: auto;
 }
 
-#structure-web-app .download-app{
+#structure-web-app .download-app {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -220,7 +220,7 @@ hr {
 }
 
 
-#structure-main .btn-upgrade a{
+#structure-main .btn-upgrade a {
     display: inline-block;
     color: #fff;
     text-transform: uppercase;
@@ -233,13 +233,13 @@ hr {
 
 /* container sito */
 
-#structure-main .web-container{
+#structure-main .web-container {
     padding: 0 20px;
 }
 
 /* menù navigazione */
 
-#structure-main .nav-menù ul{
+#structure-main .nav-menù ul {
     font-size: 0.7em;
     text-transform: uppercase;
     font-weight: bold;
@@ -250,18 +250,19 @@ hr {
     gap: 25px;
     flex-wrap: wrap;
 }
-#structure-main .nav-menù ul li a{
-   color: #7d7f84;
-   margin-bottom: 5px;
+
+#structure-main .nav-menù ul li a {
+    color: #7d7f84;
+    margin-bottom: 5px;
 }
 
-#structure-main .nav-menù ul li{
+#structure-main .nav-menù ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#structure-main .line-hover{
+#structure-main .line-hover {
     height: 2px;
     width: 30%;
     background-color: #adff2f;
@@ -269,7 +270,7 @@ hr {
 
 /* contenuto del corpo della pagina */
 
-#structure-main h2{
+#structure-main h2 {
     color: #fff;
     font-size: 1.3em;
     margin-bottom: 30px;
@@ -277,7 +278,7 @@ hr {
 
 /* lista album */
 
-#structure-main .album-list{
+#structure-main .album-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -286,61 +287,62 @@ hr {
     flex-shrink: 0;
 }
 
-#structure-main .bands-list{
+#structure-main .bands-list {
     width: calc((100% - 12px) / 2);
 }
 
-#structure-main .bands-list img{
+#structure-main .bands-list img {
     margin-bottom: 20px;
 }
 
-#structure-main .album-info{
+#structure-main .album-info {
     text-align: center;
 }
 
-#structure-main .album-info h3{
+#structure-main .album-info h3 {
     font-size: 1.2em;
     font-weight: 800;
     color: #fff;
     margin-bottom: 10px;
 }
 
-#structure-main .album-info, .dedicate-user span{
+#structure-main .album-info,
+.dedicate-user span {
     font-size: 0.7em;
     font-weight: 800;
     color: #6e7176;
 }
 
-#structure-main .album-info span{
+#structure-main .album-info span {
     display: block;
 }
 
 
 /* lista album dedicati */
 
-#structure-main .dedicate-user h2{
+#structure-main .dedicate-user h2 {
     margin-bottom: 20px;
 }
 
-#structure-main .dedicate-user span{
+#structure-main .dedicate-user span {
     font-size: 0.9em;
     display: block;
     margin-bottom: 30px;
 }
 
-#structure-main .album-list-2{
+#structure-main .album-list-2 {
     display: flex;
     gap: 12px;
     margin-bottom: 40px;
 }
 
-#structure-main .band-list-2{
+#structure-main .band-list-2 {
     width: ((100% - 12px) / 2);
 }
 
 /* album artisti popolari */
 
-#structure-main .popular-artists span{
+#structure-main .popular-artists span {
     font-size: 0.9em;
     display: block;
     margin-bottom: 30px;
@@ -348,7 +350,7 @@ hr {
     color: #6e7176;
 }
 
-#structure-main .circle-image{
+#structure-main .circle-image {
     height: 120px;
     width: 120px;
     border-radius: 50%;
@@ -356,11 +358,11 @@ hr {
     margin-bottom: 20px;
 }
 
-#structure-main .opt-1{
+#structure-main .opt-1 {
     background-image: url(/img/youg.jpeg);
 }
 
-#structure-main .opt-2{
+#structure-main .opt-2 {
     background-image: url(/img/einaudi.jpeg);
 }
 
@@ -370,48 +372,40 @@ hr {
 
 /* menù a sinistra */
 
-/* footer .track-info>div{
-    background-color: yellow;
-    border: 2px solid green;
-
-} */
-
 footer .track-info {
     display: flex;
-    padding-top: 25px;
+    align-items: center;
     gap: 10px;
 }
 
-footer .image-track{
+footer .image-track {
     width: 30px;
     height: 30px;
     flex-shrink: 0;
 }
 
-footer .album-info-track{
-    /* flex-grow: 1; */
+footer .album-info-track {
     flex-shrink: 0;
 }
 
-footer .album-info-track h4{
+footer .album-info-track h4 {
     font-size: 0.7em;
     font-weight: 800;
     color: #f9f9f9;
-    padding-top: 10px;
-    
+
 }
 
-footer .album-info-track h5{
+footer .album-info-track h5 {
     font-size: 0.5em;
     color: #878787;
 }
 
-footer .icons-shortcut{
+footer .icons-shortcut {
     color: #808080;
     flex-shrink: 0;
 }
 
-footer .icons-shortcut i{
+footer .icons-shortcut i {
     display: block;
     margin-bottom: 5px;
 }
@@ -419,25 +413,25 @@ footer .icons-shortcut i{
 
 /* menù centrale con barra di scorrimento track */
 
-footer ul.commands{
+footer ul.commands {
     display: flex;
     align-items: center;
     color: #fff;
     gap: 20px;
 }
 
-footer .fa-circle-play{
+footer .fa-circle-play {
     font-size: 1.5em;
 }
 
-footer .long-bar{
+footer .long-bar {
     width: 130px;
     height: 5px;
     background-color: #5a5a5a;
     border-radius: 30px;
 }
 
-footer .short-bar{
+footer .short-bar {
     width: 25px;
     height: 5px;
     background-color: #c1c1c1;
@@ -447,18 +441,63 @@ footer .short-bar{
     left: 0;
 }
 
-footer .bar{
+footer .bar {
     position: relative;
 }
 
-footer .track-bar span{
+footer .track-bar span {
     font-size: 0.5em;
     font-weight: 800;
     color: #fbfbfb;
 }
 
-footer .track-bar{
+footer .track-bar {
     display: flex;
     gap: 10px;
     align-items: center;
 }
+
+footer .menù-play {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+
+/* menù a destra */
+
+footer .sound-options {
+    color: #fff;
+    font-size: 0.7em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer .long-bar-2{
+    width: 85px;
+    height: 5px;
+    background-color: #5a5a5a;
+    border-radius: 30px;
+}
+
+footer .short-bar-2{
+    width: 15px;
+    height: 5px;
+    background-color: #c1c1c1;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* container del footer */
+footer .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
