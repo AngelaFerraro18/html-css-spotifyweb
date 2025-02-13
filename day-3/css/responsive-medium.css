@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px){
+    /* lista album */
+
+    #structure-main .album-list{
+        justify-content: initial;
+        
+    }
+
+    #structure-main .bands-list{
+        width: calc((100% - 36px) / 4);
+    }
+
+    #structure-main .band-list-2{
+        width: ((100% - 36px) / 2);
+    }
+
+    #structure-main .circle-image{
+        height: 160px;
+        width: 160px;
+    }
+}
+

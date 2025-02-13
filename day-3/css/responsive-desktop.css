@@ -1,0 +1,16 @@
+@media screen and (min-width: 992px) {
+     /* lista album */
+
+     #structure-main .album-list{
+        flex-wrap: nowrap;
+     }
+
+     #structure-main .band-list{
+        width: ((100% - 60px) / 6);
+    }
+
+    #structure-main .circle-image{
+        height: 240px;
+        width: 240px;
+    }
+}

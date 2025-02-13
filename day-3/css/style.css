@@ -282,6 +282,7 @@ hr {
     flex-wrap: wrap;
     gap: 12px;
     margin-bottom: 40px;
+    flex-shrink: 0;
 }
 
 #structure-main .bands-list{

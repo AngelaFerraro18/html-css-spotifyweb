@@ -1,0 +1,64 @@
+@media screen and (min-width: 576px){
+    #structure-web-app .menù-left{
+        max-width: 230px;
+        padding: 20px 20px;
+        align-items: flex-start;
+    }
+
+    #structure-web-app .disp-none{
+        display: inline;
+    }
+
+    #structure-web-app .logo-small{
+        display: none;
+    }
+
+    #structure-web-app .logo-big{
+        display: block;
+    }
+
+   
+
+    #structure-web-app .icon-list img{
+        width: 25px;
+        height: 25px;
+    }
+
+    #structure-web-app .download-app img{
+        max-width: 50px;
+    }
+
+    #structure-web-app .download-app, .user-profile{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #structure-web-app .download-app{
+        justify-content: flex-start;
+    }
+    
+
+    #structure-web-app .download-app span{
+        display: block;
+    }
+
+
+    #structure-web-app .create-playlist span{
+        display: block;
+    }
+
+    hr{
+        display: block;
+    }
+
+
+    #structure-main .header-main{
+        height: 90px;
+    }
+
+    #structure-main .circle-image{
+        height: 150px;
+        width: 150px;
+    }
+}
