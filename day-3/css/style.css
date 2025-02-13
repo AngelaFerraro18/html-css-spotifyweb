@@ -424,6 +424,9 @@ footer .short-bar {
     position: absolute;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 footer .bar {
@@ -571,6 +574,23 @@ footer .icons-shortcut i:hover{
 
 
 /* hover barra di scorrimento */
+
+footer .short-bar:hover {
+    background-color: #adff2f;
+}
+
+footer .short-bar:after{
+    content: '';
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: none;
+}
+
+footer .short-bar:hover:after{
+    display: inline-block;
+}
 
 
 
