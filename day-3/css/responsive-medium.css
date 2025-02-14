@@ -25,7 +25,12 @@
     /* menù a sinistra footer */
 
     footer .icons-shortcut {
-        margin-left: 50px;
+        margin-left: 15px;
+    }
+
+    footer .icons-shortcut i{
+        display: inline-block;
+        padding: 0 5px;
     }
 
 
